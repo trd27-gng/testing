@@ -17,3 +17,12 @@ Categories: `Added`, `Changed`, `Deprecated`, `Removed`, `Fixed`, `Security`.
 - CI workflow and a `scripts/check.sh` entry point that CI and local runs
   share
 - Pull request template and a `docs/NEW-PROJECT.md` setup checklist
+
+### Changed
+
+- `docs/NEW-PROJECT.md` rewritten against what the free tier actually allows:
+  splits the checklist into Claude's half (the files) and the maintainer's
+  half (GitHub settings), documents that rulesets do not enforce on private
+  repos on GitHub Free, adds the visibility decision table, corrects the
+  ruleset steps (Active enforcement, 0 required approvals while solo,
+  squash-only merges), and adds the account-wide commit-email privacy step
